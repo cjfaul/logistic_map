@@ -99,8 +99,8 @@ def cobweb(x0=0, r=0, iterations=100, ymin=0, ymax=1, xmin=0, xmax=1): #cobwebs 
         y = r*x*(1-x)
         return y
     
-    #f = logistic_cobweb
-    f = np.cos
+    f = logistic_cobweb
+    #f = np.cos
     
     fig = plt.figure()
     domain = np.linspace(xmin,xmax,500)
